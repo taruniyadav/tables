@@ -1,0 +1,8 @@
+create table student
+( 
+student_name varchar2(19) not null,
+student_id number(12) primary,
+phone_number number(10) not null,
+parent_name varchar2(19) not null,
+city varchar2(15) not null,
+postal_code varchar2(17) not null);
